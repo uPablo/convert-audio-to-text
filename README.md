@@ -1,3 +1,4 @@
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?business=J2SPVFH7QXSRW&no_recurring=0&item_name=Help+me+keep+making+great+things+with+programmation%2C+thank+you%21&currency_code=USD)
 ### Convert audio to text
 ![convert-audio-to-text](https://raw.githubusercontent.com/uPablo/convert-audio-to-text/main/assets/convert-audio-to-text.png)
 
@@ -22,6 +23,7 @@ choco install ffmpeg
 ### By cloning the repository
 1. Clone this repository `git clone https://github.com/uPablo/convert-audio-to-text`
 2. Install all the requirements `pip install -r requirements.txt` . If you have problems with requirements, make sure to have at least Python3.6. You could also try to create a _virtualenv_ and then install all the requirements
+3. Don't forget to change the variable `project_folder` in `run.py` file with the absolute path of your cloned project
 
 ```sh
 pip install virtualenv
@@ -39,8 +41,6 @@ Run `python setup.py` to create the respective folders used in the project.<br/>
 Put the mp3 songs in `sound-to-convert` folder<br/>
 ![mp3 songs in sound-to-convert folder](https://raw.githubusercontent.com/uPablo/convert-audio-to-text/main/assets/put-mp3-files-in-sound-to-convert-folder.png)
 
-### Important
-Don't forget to change the variable `project_folder` in `run.py` file with the absolute path of your cloned project
 
 Start transcripting! `python run.py` 🥳
 
