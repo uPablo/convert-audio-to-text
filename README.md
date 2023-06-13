@@ -57,7 +57,7 @@ And finally you can see the audio transcription to text<br/>
 ![txt file with text write inside](https://raw.githubusercontent.com/uPablo/convert-audio-to-text/main/assets/transcription-in-txt-file-finished.png)
 
 ---
-#BONUS TIPS
+### BONUS TIPS
 If you was installed the ffmpeg globally in your system, you can use the follow command line to convert some extensions to `.mp3`
 
 ### MP4
