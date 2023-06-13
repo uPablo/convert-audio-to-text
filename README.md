@@ -33,10 +33,10 @@ pip install -r requirements.txt
 ---
 
 ### Proccess
-Run `python setup.py` to create the respective folders used in the project.
+Run `python setup.py` to create the respective folders used in the project.<br/>
 ![console with instructions to put mp3 in the sound-to-convert folder](https://raw.githubusercontent.com/uPablo/convert-audio-to-text/main/assets/run-python-setup.png)
 
-Put the mp3 songs in `sound-to-convert` folder
+Put the mp3 songs in `sound-to-convert` folder<br/>
 ![mp3 songs in sound-to-convert folder](https://raw.githubusercontent.com/uPablo/convert-audio-to-text/main/assets/put-mp3-files-in-sound-to-convert-folder.png)
 
 ### Important
@@ -44,16 +44,16 @@ Don't forget to change the variable `project_folder` in `run.py` file with the a
 
 Start transcripting! `python run.py` 🥳
 
-First step converting all mp3 files to wav files
+First step converting all mp3 files to wav files<br/>
 ![script starts convert to wav and transcript the audio](https://raw.githubusercontent.com/uPablo/convert-audio-to-text/main/assets/run-python-run.png)
 
-Second step starts chunk the wav files in small files to listening them
+Second step starts chunk the wav files in small files to listening them<br/>
 ![chucking the wav files in small files](https://raw.githubusercontent.com/uPablo/convert-audio-to-text/main/assets/chuncked-audios.png)
 
-Third step after finish run the script will write all the audio converted to text in `audio-to-text-converted` folder with `.txt` extension
+Third step after finish run the script will write all the audio converted to text in `audio-to-text-converted` folder with `.txt` extension<br/>
 ![file txt with audio converted in text](https://raw.githubusercontent.com/uPablo/convert-audio-to-text/main/assets/folders-workflow-transcription.png)
 
-And finally you can see the audio transcription to text
+And finally you can see the audio transcription to text<br/>
 ![txt file with text write inside](https://raw.githubusercontent.com/uPablo/convert-audio-to-text/main/assets/transcription-in-txt-file-finished.png)
 
 ---
